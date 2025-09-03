@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 3000
 
 # คำสั่งสำหรับรันแอปพลิเคชัน
-CMD ["node","app.js"]
+CMD [ "npm", "start" ]
